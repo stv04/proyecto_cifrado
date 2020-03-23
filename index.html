@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cifrado de Cesar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Hola, Bienvenido(a) al cifrado de cesar</h1>
+<div id="n1" name="ins">
+	<h2 id="n2">¿Qué quieres hacer?</h2>
+	<form name="rellenar"><label>Pero antes, ingresa la cantidad de caracteres que deseas desplazar a continuación...</label>
+	<input type="number" name="numero" maxlength="3" placeholder="32" required="required">
+	<br><br>
+	<input onclick="cifrar()" type="button" value="Cifrar"></input>
+	<input onclick="decifrar()" type="button" value="Decifrar"></input>
+</form>
+</div>
+
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

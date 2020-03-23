@@ -1,0 +1,70 @@
+
+body {
+	background-color: rgba(37,213, 48,1);
+	text-align: center;
+}
+
+h1 {
+	color: rgba(164,235,168,1);
+	font-size: 4em; 
+	margin: auto;
+	font-family: sans-serif;
+}
+
+h2, h3 {
+	color: white;
+	font-size: 2.5em;
+	
+	display: block;
+}
+
+label {
+	color:rgba(0,0,0,0.7);
+	font-size: 1.5em;
+	margin: auto;
+	float: left; 
+}
+
+input[name="numero"] {
+	margin: 5px auto;
+	background-color: rgba(87,220, 96,1);
+	border: none;
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+input[onclick]{
+	background-color: rgba(164,235,168,1);
+	color: rgba(0,148, 10,0.5);
+	font-size: 2.5em;
+	font-weight: bold;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 10px;
+
+}
+
+
+textarea {
+	border:none;
+	padding: 10px;
+	height: 100px;
+	background-color: rgba(87,220, 96,1);
+	border-radius: 30px;
+	margin: 30px auto;
+	font-size: 1.5em;
+	color: rgba(0,148, 10,0.7);
+	text-align: center;
+}
+
+#mostrar_mensaje {
+	border-color: rgba(0,199, 13,1);
+}
+
+div {
+	font-family: sans-serif;
+}
